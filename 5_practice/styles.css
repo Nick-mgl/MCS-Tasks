@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainbody {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.headercontainer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    max-width: 1000px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menupoint1 {
+    position: relative;
+    z-index: 2;
+}
+
+.menupoint1:hover .submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 150px;
+    top: 17px;
+    left: 0px;
+    z-index: 1;
+}
+
+.submenu {
+    display: none;
+}
+
+a {
+    color: #E50043;
+    text-decoration: none;
+}
+
+.submenupoint {
+    padding-top: 10px;
+}
+
+.submenuitem {
+    text-shadow: 0px 0px 2px #fffefe, 0px 0px 4px #fffefe, 0px 0px 4px #fffefe, 0px 0px 5px #fffefe;
+} 
+
+.banner {
+    margin-top: 50px;
+    height: 600px;
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-position:top;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    align-items: center;
+    min-width: max-content;
+}
+
+.description {
+    display: flex;
+    min-height: 350px;
+}
+
+.centerpagetable {
+    min-width: 400px;
+    border-color: #E50043;
+    border-radius: 5px;
+    border-style: solid;
+    margin: auto 150px auto 150px;
+    padding: 10px;
+}
+
+.options {
+    padding: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: auto;
+}
+
+.bottle {
+    margin: auto;
+    width: 200px;
+}
+
+.bottleimage {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottlespec {
+    text-align: center;
+}
+
+.specifications {
+    display: flex;
+    min-height: 450px;
+}
+
+.spectable {
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 350px;
+    border-color: #E50043;
+    border-radius: 5px;
+    border-style: solid;
+    margin: auto 150px auto 150px;
+    padding: 10px;
+}
+
+.footer {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    background: #F8BFC7;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.footertext {
+    color: #ffffff;
+}
+
+.spectableimage {
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bottleimagesmall {
+    height: 200px;
+    width: auto;
+}
+
+.maintext {
+    font-size: 1em;
+    margin: 10px;
+    font-weight: lighter;
+}
+
+.spectabletext {
+    margin: auto;
+}
+
+.slogan {
+    font-size: 4em;
+    margin: 0 80px 50px 80px;
+    text-shadow: #ffffff 1px 0 10px;
+}
+
+.brand {
+    font-size: 1.8em;
+}
+
+.highlighttext {
+    color: #E50043;
+    font-weight: normal;
+}

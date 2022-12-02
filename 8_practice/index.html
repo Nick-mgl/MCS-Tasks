@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 8</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="header">
+                <ul class="headerfastlinks">
+                    <li class="headertext"><a href="#">Посылки</a></li>
+                    <li class="headertext"><a href="#">Упаковка</a></li>
+                    <li class="headertext"><a href="#">Подписка</a></li>
+                </ul>
+                <div class="menulink">
+                    <p class="headertext"><a href="#">Меню</a></p>
+                </div>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="formplace">
+                <form action="https://formspree.io/f/xpzngbzd" method="post" class="contactform">
+                    <div class="innerformplace">
+                        <label class="formitem lowcase" for="name">Имя:</label>
+                        <input class="formitem lowcase" id="name" name="Name" type="text">
+                        <label class="formitem lowcase" for="city">Город:</label>
+                        <input class="formitem lowcase" id="city" name="Сity" type="text">
+                        <label class="formitem lowcase" for="gifttype">Подарок:</label>
+                        <select class="formitem lowcase" id="gifttype" name="Gift">
+                            <option value="Cake">Пирог</option>
+                            <option value="Book">Книга</option>
+                            <option value="Trip">Путешествие</option>
+                            <option value="Theatre">Поход в театр</option>
+                        </select>
+                        <label class="formitem lowcase" for="email">Email:</label>
+                        <input class="formitem lowcase" id="email" name="email" type="email" placeholder="msc@email.ru"/>
+                    </div>
+                    <div class="buttonplace">
+                        <button type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="sometextsapce">
+            <p class="sometext">Ваша посылка будет отправлена!</p>
+        </div>
+        <footer>
+            <div class="footer">
+                <p class="footertext">Странные посылки для друзей</p>
+                <p class="footertext">© 2022</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

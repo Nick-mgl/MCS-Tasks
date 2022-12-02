@@ -1,0 +1,162 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    max-width: 1440;
+    text-transform: uppercase;
+}
+
+ul {
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    display: flex;
+    height: 90px;
+    background-color: #F8BFC7;
+    align-items: center;
+}
+
+.header {
+    justify-content: flex-end;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.sometextsapce {
+    display: flex;
+    color: #FEB700;
+    background-color: #336FD1;
+    align-items: center;
+    min-height: 200px;
+    padding: 30px;
+}
+
+.sometext {
+    font-size: 2.5em;
+    text-align: center;
+    margin: auto;
+}
+
+.footer {
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.headerfastlinks,
+.menulink,
+.footertext {
+    margin: 0 30px 0 30px;
+}
+
+.headerfastlinks {
+    display: none;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/background.png);
+    background-size: fill;
+    background-position: center;
+    min-height: 630px;
+}
+
+.formplace {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.innerformplace {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px 10px 30px 10px;
+    background-color: #F8BFC7;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ffffff;
+    color: #FFFFFF;
+}
+
+.buttonplace {
+    display: flex;
+    width: 90%;
+}
+
+
+.formplace button {
+    background-color: #FEB700;
+    margin: auto;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ffffff;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.formplace input,
+.formplace select {
+    outline: 0;
+    border-width: 0 0 2px;
+    background-color: #F8BFC7;
+    border-bottom: solid;
+    border-color: #ffffff;
+    color: #ffffff;
+
+}
+
+.lowcase {
+    text-transform: initial;
+}
+
+.formitem {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+@media only screen and (min-width: 700px) {
+    
+    .header {
+        justify-content: space-between;
+    }
+    
+    .headerfastlinks {
+        display: flex;
+    }
+
+
+    .headerfastlinks li {
+        margin: 10px;
+        display: inline;
+    }
+
+    .headerfastlinks li:first-of-type {
+        margin-left: 0px;
+    }
+
+    .banner {
+        min-height: 630px;
+    }
+
+    .formplace {
+        margin: 50px 80px;
+        width: 300px;
+    }
+
+}
+    
